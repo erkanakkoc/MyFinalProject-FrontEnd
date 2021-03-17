@@ -1,6 +1,6 @@
 <li *ngIf="cartItems.length>0" class="nav-item dropdown">
   <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Sepetiniz
+    <i class="fas fa-shopping-cart"></i>
   </a>
   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
     <li *ngFor="let cartItem of cartItems"><a
@@ -10,3 +10,7 @@
     <li><a class="dropdown-item">Sepete git</a></li>
   </ul>
 </li>
+
+<!-- <li>
+  <i class="dropdown-item fas fa-shopping-cart"></i>
+</li> -->
